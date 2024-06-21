@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether it's positive 
+ * main - Prints a random number and states whether it's positive
  * or negative or zero
  * Return: 0 if returned correctly, and non-zero otherwise
  */
- 
+
 int main(void)
 {
 	int n;
