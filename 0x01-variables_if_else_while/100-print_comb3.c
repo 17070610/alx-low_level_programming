@@ -14,6 +14,10 @@ int main(void)
 	{
 		for (units = 0; units < 10; units++)
 		{
+			if (tens >= units)
+			{
+				continue;
+			}
 			putchar(tens + '0');
 			putchar(units + '0');
 			if (tens != 8 || units != 9)
