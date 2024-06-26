@@ -8,5 +8,11 @@
 
 int print_last_digit(int i)
 {
-	return (i % 10);
+	int lastdigit = i % 10;
+
+	if (lastdigit < 0)
+		lastdigit *= -1;
+
+	_putchar(lastdigit + '0');
+	return (lastdigit);
 }
