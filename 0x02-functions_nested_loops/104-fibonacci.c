@@ -19,7 +19,6 @@ int main(void)
 		n1 = n2;
 		n2 = n3;
 	}
-
 	n1_h1 = n1 / 10000000000;
 	n2_h1 = n2 / 10000000000;
 	n1_h2 = n1 % 10000000000;
@@ -35,7 +34,6 @@ int main(void)
 			h1 += 1;
 			h2 %= 10000000000;
 		}
-
 		printf("%lu%lu", h1, h2);
 
 		if (inc != 98)
@@ -48,6 +46,5 @@ int main(void)
 	}
 
 	printf("\n");
-
 	return (0);
 }
