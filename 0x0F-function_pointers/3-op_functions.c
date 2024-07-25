@@ -6,8 +6,8 @@
  * op_add - Returns sum of a and b
  * @a: Th first int
  * @b: The second int
- * 
- * @Return: The sum of a and b
+ *
+ * Return: The sum of a and b
  */
 
 int op_add(int a, int b)
@@ -20,7 +20,7 @@ int op_add(int a, int b)
  * @a: The first int
  * @b: The second int
  *
- * @Return: The difference between a and b
+ * Return: The difference between a and b
  */
 
 int op_sub(int a, int b)
@@ -33,7 +33,7 @@ int op_sub(int a, int b)
  * @a: The first int
  * @b: The second int
  *
- * @Return: The product of a and b
+ * Return: The product of a and b
  */
 
 int op_mul(int a, int b)
@@ -46,7 +46,7 @@ int op_mul(int a, int b)
  * @a: The first int
  * @b: The second int
  *
- * @Return: The quotient of a and b or NULL if b == 0
+ * Return: The quotient of a and b or NULL if b == 0
  */
 
 int op_div(int a, int b)
@@ -60,11 +60,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_div - Returns the modulus between a and b
+ * op_mod - Returns the modulus between a and b
  * @a: The first int
  * @b: The second int
  *
- * @Return: The modulus of a and b
+ * Return: The modulus of a and b
  */
 
 int op_mod(int a, int b)
