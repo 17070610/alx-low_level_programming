@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * get_dnodeint_at_index - Returns the nth node of a dlistint_t list
